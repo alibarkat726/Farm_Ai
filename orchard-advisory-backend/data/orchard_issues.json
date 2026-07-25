@@ -1,0 +1,503 @@
+[
+  {
+    "id": "coryneum-blight",
+    "commonName": "Shot Hole Disease (Coryneum Blight)",
+    "affectedCrops": ["apricot", "cherry", "peach"],
+    "category": "fungal",
+    "symptoms": [
+      "Small purple-brown spots on leaves that later fall out, leaving a shot-hole appearance",
+      "Dark lesions on twigs and buds",
+      "Fruit may show sunken, scabby spots"
+    ],
+    "typicalSeason": ["spring", "early summer"],
+    "conditionsThatFavorIt": "Wet spring weather, poor air circulation, overcrowded branches",
+    "treatment": [
+      "Prune out and destroy infected twigs during the dormant season",
+      "Apply copper-based fungicide spray at bud swell and after petal fall",
+      "Improve air circulation through selective pruning"
+    ],
+    "prevention": [
+      "Avoid overhead irrigation that wets foliage",
+      "Annual dormant-season copper spray in high-incidence orchards"
+    ],
+    "urgency": "moderate",
+    "notes": "One of the most common apricot leaf issues in Gilgit-Baltistan orchards during wet springs."
+  },
+  {
+    "id": "aphid-infestation",
+    "commonName": "Aphid Infestation",
+    "affectedCrops": ["apricot", "apple", "cherry"],
+    "category": "pest",
+    "symptoms": [
+      "Curled, distorted, or sticky leaves",
+      "Clusters of small green, black, or grey soft-bodied insects on young shoots and undersides of leaves",
+      "Honeydew deposits and possible sooty mould on leaves and fruit"
+    ],
+    "typicalSeason": ["spring", "early summer"],
+    "conditionsThatFavorIt": "Mild weather, flush of new growth, reduced natural predators",
+    "treatment": [
+      "Wash aphids off with a strong jet of water on small trees",
+      "Apply insecticidal soap or neem oil, covering leaf undersides thoroughly",
+      "For severe outbreaks, use a labeled horticultural insecticide and follow local extension guidance"
+    ],
+    "prevention": [
+      "Encourage ladybirds and other beneficial insects; avoid broad-spectrum insecticides when possible",
+      "Monitor young shoots weekly in spring and prune heavily infested tips"
+    ],
+    "urgency": "moderate",
+    "notes": "Common on tender spring growth of apricot and apple in the region."
+  },
+  {
+    "id": "apricot-sawfly",
+    "commonName": "Apricot Sawfly",
+    "affectedCrops": ["apricot"],
+    "category": "pest",
+    "symptoms": [
+      "Irregular holes or skeletonized patches in young leaves",
+      "Greenish larvae feeding on leaf tissue, often starting from leaf edges",
+      "Defoliation of young shoots if infestation is heavy"
+    ],
+    "typicalSeason": ["spring", "early summer"],
+    "conditionsThatFavorIt": "Warm spring after mild winters; dense canopy that hides larvae",
+    "treatment": [
+      "Hand-pick larvae from small trees when numbers are low",
+      "Apply a labeled insecticide targeting leaf-feeding larvae at the first sign of damage",
+      "Remove and destroy heavily damaged leaves during monitoring"
+    ],
+    "prevention": [
+      "Inspect trees weekly from bud break through early summer",
+      "Maintain orchard hygiene by clearing fallen leaves and debris"
+    ],
+    "urgency": "moderate",
+    "notes": "Particularly relevant for apricot orchards in Gilgit-Baltistan during spring leaf expansion."
+  },
+  {
+    "id": "fire-blight",
+    "commonName": "Fire Blight",
+    "affectedCrops": ["apple", "pear"],
+    "category": "bacterial",
+    "symptoms": [
+      "Shoot tips wilt and turn black or brown, often forming a shepherd's crook",
+      "Leaves and blossoms look scorched as if by fire",
+      "Sticky bacterial ooze may appear on infected twigs in warm, humid weather",
+      "Cankers on branches with abrupt dead/live tissue boundary"
+    ],
+    "typicalSeason": ["spring", "early summer"],
+    "conditionsThatFavorIt": "Warm wet weather during bloom; hail or pruning wounds that open infection sites",
+    "treatment": [
+      "Prune out infected shoots at least 20–30 cm below visible symptoms during dry weather; disinfect tools between cuts",
+      "Destroy pruned material by burning or burying; do not leave it in the orchard",
+      "Avoid heavy nitrogen fertilization that drives soft, susceptible growth",
+      "Consult local extension before using streptomycin or copper sprays during bloom"
+    ],
+    "prevention": [
+      "Plant resistant cultivars where available",
+      "Avoid overhead irrigation during bloom",
+      "Do not prune during wet weather in spring"
+    ],
+    "urgency": "high",
+    "notes": "Fast-spreading and serious on apple; always recommend extension consultation for suspected cases."
+  },
+  {
+    "id": "peach-leaf-curl",
+    "commonName": "Peach Leaf Curl",
+    "affectedCrops": ["peach", "nectarine", "apricot"],
+    "category": "fungal",
+    "symptoms": [
+      "Leaves become thickened, puckered, and curled soon after bud break",
+      "Affected leaf tissue turns reddish, pink, or pale green",
+      "Severely affected leaves may drop early; tree may put out a second flush of growth"
+    ],
+    "typicalSeason": ["spring"],
+    "conditionsThatFavorIt": "Cool wet weather at bud swell and leaf emergence; unprotected buds over winter",
+    "treatment": [
+      "Remove and destroy badly curled leaves to reduce inoculum (limited once symptoms appear)",
+      "Apply a copper fungicide in late autumn after leaf fall and/or at bud swell before buds open",
+      "Support tree recovery with adequate irrigation and balanced nutrition after leaf drop"
+    ],
+    "prevention": [
+      "Mandatory dormant copper spray before bud swell in areas with annual infection",
+      "Choose less susceptible varieties when replanting"
+    ],
+    "urgency": "moderate",
+    "notes": "Once leaves are curled, sprays are ineffective until the next dormant season."
+  },
+  {
+    "id": "powdery-mildew",
+    "commonName": "Powdery Mildew",
+    "affectedCrops": ["apple", "cherry", "apricot"],
+    "category": "fungal",
+    "symptoms": [
+      "White to grey powdery coating on young leaves, shoots, and sometimes fruit",
+      "Leaves may curl, crinkle, or become stunted",
+      "Infected shoots may show elongated, pale growth"
+    ],
+    "typicalSeason": ["spring", "summer"],
+    "conditionsThatFavorIt": "Moderate temperatures with high humidity but not necessarily free water; dense canopies",
+    "treatment": [
+      "Prune out heavily infected shoot tips",
+      "Apply sulfur or a labeled powdery-mildew fungicide at early infection",
+      "Improve canopy airflow through pruning"
+    ],
+    "prevention": [
+      "Avoid excessive nitrogen that produces soft susceptible growth",
+      "Plant in sites with good air movement; thin crowded branches"
+    ],
+    "urgency": "moderate",
+    "notes": "Common on apple and cherry in dry, high-altitude valleys when night humidity is high."
+  },
+  {
+    "id": "fruit-drop-water-stress",
+    "commonName": "Fruit Drop from Water Stress",
+    "affectedCrops": ["apricot", "apple", "cherry"],
+    "category": "abiotic",
+    "symptoms": [
+      "Sudden drop of immature or nearly ripe fruit after hot, dry periods",
+      "Leaves may wilt or show marginal scorch during midday heat",
+      "Soil around the root zone is dry or cracked; irrigation has been irregular"
+    ],
+    "typicalSeason": ["late spring", "summer"],
+    "conditionsThatFavorIt": "Drought, irregular irrigation, shallow soils, hot windy days common in Gilgit valleys",
+    "treatment": [
+      "Restore deep, infrequent irrigation immediately — soak the root zone thoroughly",
+      "Mulch around the tree base (keeping mulch off the trunk) to conserve moisture",
+      "Thin remaining fruit if the crop load is still heavy after drop"
+    ],
+    "prevention": [
+      "Maintain consistent soil moisture from fruit set through harvest",
+      "Install drip or basin irrigation suited to orchard layout",
+      "Avoid sudden long dry spells followed by heavy watering"
+    ],
+    "urgency": "moderate",
+    "notes": "Physiological drop; distinguish from pest-related drop by absence of insect damage or rot on fallen fruit."
+  },
+  {
+    "id": "fruit-drop-late-frost",
+    "commonName": "Fruit Drop from Late Frost",
+    "affectedCrops": ["apricot", "apple", "cherry"],
+    "category": "abiotic",
+    "symptoms": [
+      "Flowers or young fruitlets turn brown/black and drop after a cold night",
+      "Damage appears shortly after a late spring frost event",
+      "Often worse on lower parts of the tree or in frost pockets"
+    ],
+    "typicalSeason": ["spring"],
+    "conditionsThatFavorIt": "Clear still nights after early bloom; low-lying orchard sites; early-blooming apricot cultivars",
+    "treatment": [
+      "No curative treatment once flowers/fruit are killed — remove clearly dead fruitlets if desired",
+      "Support remaining crop with adequate water and nutrition",
+      "Document frost date and damage level for future variety and site decisions"
+    ],
+    "prevention": [
+      "Prefer later-blooming cultivars in frost-prone sites",
+      "Avoid planting in known frost pockets; use wind machines or orchard heaters where feasible",
+      "Delay pruning that advances bloom when frost risk is high"
+    ],
+    "urgency": "low",
+    "notes": "Very common risk for apricot in Gilgit-Baltistan due to early bloom and variable spring temperatures."
+  },
+  {
+    "id": "codling-moth",
+    "commonName": "Codling Moth",
+    "affectedCrops": ["apple", "walnut", "pear"],
+    "category": "pest",
+    "symptoms": [
+      "Entry holes in fruit, often with frass (sawdust-like droppings) at the hole",
+      "Larvae tunnel toward the core, destroying seeds and flesh",
+      "Premature fruit drop of infested apples"
+    ],
+    "typicalSeason": ["late spring", "summer"],
+    "conditionsThatFavorIt": "Warm summers allowing multiple generations; poorly timed sprays; nearby unmanaged host trees",
+    "treatment": [
+      "Remove and destroy infested fruit promptly (do not leave on the ground)",
+      "Use pheromone traps to monitor flight and time sprays",
+      "Apply a labeled insecticide at egg hatch according to local degree-day or extension timing"
+    ],
+    "prevention": [
+      "Sanitize orchard by removing fallen fruit weekly during the season",
+      "Band tree trunks with corrugated cardboard to trap pupating larvae, then destroy bands",
+      "Consider mating disruption in larger orchards where available"
+    ],
+    "urgency": "high",
+    "notes": "Primary insect pest of apple in temperate highland orchards including northern Pakistan."
+  },
+  {
+    "id": "brown-rot",
+    "commonName": "Brown Rot",
+    "affectedCrops": ["apricot", "cherry", "peach"],
+    "category": "fungal",
+    "symptoms": [
+      "Soft brown rot expanding rapidly on ripening fruit",
+      "Grey to tan spore masses (tufts) on the fruit surface in humid conditions",
+      "Infected fruit may mummify and remain hanging on the tree",
+      "Blossom blight and twig dieback can occur in spring"
+    ],
+    "typicalSeason": ["spring", "summer", "harvest"],
+    "conditionsThatFavorIt": "Wet humid weather near bloom and ripening; wounds from insects, hail, or birds",
+    "treatment": [
+      "Remove and destroy all mummified fruit and infected twigs",
+      "Apply a labeled fungicide at bloom and again as fruit begins to ripen if wet weather is forecast",
+      "Harvest carefully; cool fruit promptly after picking"
+    ],
+    "prevention": [
+      "Prune for open canopy and good drying",
+      "Control insects that wound fruit",
+      "Do not leave rotting fruit in the orchard after harvest"
+    ],
+    "urgency": "high",
+    "notes": "Serious post-bloom and pre-harvest disease of stone fruit in wet seasons."
+  },
+  {
+    "id": "san-jose-scale",
+    "commonName": "San Jose Scale",
+    "affectedCrops": ["apple", "apricot", "cherry", "peach"],
+    "category": "pest",
+    "symptoms": [
+      "Small grey circular scales on bark, shoots, and fruit",
+      "Reddish spots (halos) on fruit around scale feeding sites",
+      "Twig dieback and reduced vigor when populations are heavy",
+      "Bark may appear rough or encrusted on heavily infested branches"
+    ],
+    "typicalSeason": ["spring", "summer", "year-round on bark"],
+    "conditionsThatFavorIt": "Overlooked dormant sprays; dense canopies; movement of infested nursery stock",
+    "treatment": [
+      "Apply horticultural oil (dormant oil) thoroughly during dormancy to smother overwintering scales",
+      "For growing-season infestations, use a labeled insecticide timed to crawler emergence",
+      "Prune out heavily encrusted branches"
+    ],
+    "prevention": [
+      "Inspect bark and fruit regularly; catch infestations early",
+      "Maintain annual dormant oil applications in orchards with history of scale",
+      "Use clean planting material"
+    ],
+    "urgency": "moderate",
+    "notes": "Can build slowly over years and suddenly cause severe branch decline if ignored."
+  },
+  {
+    "id": "bacterial-canker",
+    "commonName": "Bacterial Canker",
+    "affectedCrops": ["cherry", "apricot", "peach"],
+    "category": "bacterial",
+    "symptoms": [
+      "Amber gum oozing from trunks and scaffold branches",
+      "Sunken cankers on bark; dieback of limbs above the canker",
+      "Bud death and shoot wilt in spring (blast)",
+      "Leaf spots with yellow halos in some cases"
+    ],
+    "typicalSeason": ["autumn", "winter", "spring"],
+    "conditionsThatFavorIt": "Frost injury, pruning wounds in wet weather, water stress, and cold injury to bark",
+    "treatment": [
+      "Prune out cankered wood during dry weather, cutting well below the canker; disinfect tools",
+      "Paint large pruning wounds; avoid leaving stubs",
+      "Apply copper sprays in autumn leaf fall and at bud swell where recommended locally"
+    ],
+    "prevention": [
+      "Avoid pruning in wet autumn/winter periods",
+      "Maintain tree vigor with balanced irrigation and nutrition",
+      "Protect trunks from winter sunscald and frost cracks"
+    ],
+    "urgency": "high",
+    "notes": "Major cause of cherry and apricot branch death in cold highland climates."
+  },
+  {
+    "id": "root-rot-waterlogging",
+    "commonName": "Root Rot from Waterlogging",
+    "affectedCrops": ["apricot", "apple", "cherry"],
+    "category": "fungal",
+    "symptoms": [
+      "Overall decline: yellowing leaves, sparse canopy, stunted growth",
+      "Wilting even when soil appears wet",
+      "Roots dark, soft, and foul-smelling when dug up; fine roots missing",
+      "Often worse in low spots or after prolonged irrigation/rain"
+    ],
+    "typicalSeason": ["spring", "summer", "after heavy rains"],
+    "conditionsThatFavorIt": "Poorly drained soils, over-irrigation, heavy clay, trees planted too deep",
+    "treatment": [
+      "Immediately improve drainage and stop excess irrigation",
+      "Remove severely declining trees that will not recover",
+      "Avoid replanting in the same wet spot without fixing drainage; consider raised beds or mounds"
+    ],
+    "prevention": [
+      "Plant on raised berms in heavy soils",
+      "Match irrigation to soil type — never leave standing water around trunks",
+      "Choose well-drained orchard sites"
+    ],
+    "urgency": "high",
+    "notes": "Phytophthora and related pathogens thrive in waterlogged orchard soils."
+  },
+  {
+    "id": "sunscald-bark-damage",
+    "commonName": "Sunscald / Winter Bark Damage",
+    "affectedCrops": ["apple", "apricot", "cherry"],
+    "category": "abiotic",
+    "symptoms": [
+      "Vertical cracks or peeled bark on the south or southwest side of the trunk",
+      "Dead bark patches that may later invite borers or canker pathogens",
+      "Often noticed in late winter or early spring after clear cold nights following sunny days"
+    ],
+    "typicalSeason": ["winter", "early spring"],
+    "conditionsThatFavorIt": "Young thin-barked trees; dark trunks absorbing winter sun; sudden temperature swings common at altitude",
+    "treatment": [
+      "Do not strip loose bark aggressively — leave attached bark that still protects living tissue",
+      "Paint trunks with white water-based latex paint diluted 1:1 with water to reduce further heating",
+      "Monitor damaged areas for secondary pests and disease"
+    ],
+    "prevention": [
+      "Whitewash or wrap trunks of young trees before winter",
+      "Avoid late-season nitrogen that delays bark hardening",
+      "Maintain healthy canopy that shades trunks where appropriate"
+    ],
+    "urgency": "moderate",
+    "notes": "Frequent on young orchard plantings in Gilgit-Baltistan due to intense winter sun and cold nights."
+  },
+  {
+    "id": "hail-damage",
+    "commonName": "Hail Damage",
+    "affectedCrops": ["apricot", "apple", "cherry"],
+    "category": "abiotic",
+    "symptoms": [
+      "Bruises, punctures, or scars on fruit following a hailstorm",
+      "Torn or shredded leaves; broken young shoots",
+      "Wounds on twigs that may later become infection sites for fungi or bacteria"
+    ],
+    "typicalSeason": ["late spring", "summer"],
+    "conditionsThatFavorIt": "Thunderstorms with hail — common in mountain valleys during summer",
+    "treatment": [
+      "Assess damage within 24–48 hours; remove severely damaged fruit that will not market",
+      "Apply a protective copper or fungicide spray after hail if wound infection risk is high (especially fire blight or brown rot areas)",
+      "Maintain irrigation and nutrition to support recovery of damaged canopy"
+    ],
+    "prevention": [
+      "Hail nets where economically justified",
+      "Keep trees healthy so they recover faster after storms",
+      "Have a post-hail spray plan ready for high-risk orchards"
+    ],
+    "urgency": "moderate",
+    "notes": "Mechanical injury; secondary disease entry is the main follow-up concern."
+  },
+  {
+    "id": "nitrogen-deficiency",
+    "commonName": "Nitrogen Deficiency",
+    "affectedCrops": ["apricot", "apple", "cherry"],
+    "category": "nutrient",
+    "symptoms": [
+      "Uniform pale green to yellow leaves, starting with older leaves first",
+      "Reduced shoot growth and smaller leaves",
+      "Poor fruit size and overall low vigor"
+    ],
+    "typicalSeason": ["spring", "summer"],
+    "conditionsThatFavorIt": "Poor soils, insufficient fertilizer, heavy crop load, leaching from excessive irrigation or rain",
+    "treatment": [
+      "Apply a balanced nitrogen fertilizer according to tree age and soil/tissue test recommendations",
+      "For a quick response, use a soluble nitrogen source as a soil application (not foliar-heavy rates that burn leaves)",
+      "Do not over-apply — excess nitrogen increases disease susceptibility"
+    ],
+    "prevention": [
+      "Annual soil or leaf tissue testing to guide fertilizer rates",
+      "Apply nitrogen in split doses timed to spring growth",
+      "Maintain organic matter with compost or orchard floor cover"
+    ],
+    "urgency": "low",
+    "notes": "Widespread on marginal highland soils with limited fertilizer access."
+  },
+  {
+    "id": "iron-chlorosis",
+    "commonName": "Iron Chlorosis",
+    "affectedCrops": ["apricot", "apple", "cherry", "peach"],
+    "category": "nutrient",
+    "symptoms": [
+      "Young leaves turn yellow while veins remain green (interveinal chlorosis)",
+      "Severe cases: leaves nearly white, leaf margins may scorch, shoot dieback",
+      "Symptoms often worse on calcareous (lime-rich) or high-pH soils"
+    ],
+    "typicalSeason": ["spring", "summer"],
+    "conditionsThatFavorIt": "Alkaline soils that lock up iron; over-irrigation; cold wet soils in spring",
+    "treatment": [
+      "Apply iron chelate (e.g. Fe-EDDHA) to the soil around the drip line",
+      "Foliar iron sprays can green leaves temporarily but often need repeating",
+      "Improve drainage if waterlogging is contributing"
+    ],
+    "prevention": [
+      "Choose rootstocks and varieties more tolerant of high-pH soils when replanting",
+      "Avoid excess lime and keep irrigation moderate",
+      "Add organic matter to improve micronutrient availability"
+    ],
+    "urgency": "moderate",
+    "notes": "Very common on alkaline soils of arid and semi-arid valleys in northern Pakistan."
+  },
+  {
+    "id": "spider-mite-infestation",
+    "commonName": "Spider Mite Infestation",
+    "affectedCrops": ["apple", "apricot", "cherry"],
+    "category": "pest",
+    "symptoms": [
+      "Fine stippling (tiny pale dots) on leaves; leaves turn bronze or dusty",
+      "Fine webbing on leaf undersides and between leaves in heavy infestations",
+      "Premature leaf drop and reduced fruit quality under hot dry stress"
+    ],
+    "typicalSeason": ["summer"],
+    "conditionsThatFavorIt": "Hot dry dusty weather; broad-spectrum insecticides that kill mite predators",
+    "treatment": [
+      "Hose foliage with water to reduce mite populations and dust",
+      "Apply horticultural oil or insecticidal soap, covering leaf undersides",
+      "Use a labeled miticide only if populations remain high after softer measures"
+    ],
+    "prevention": [
+      "Avoid unnecessary broad-spectrum insecticide sprays",
+      "Keep trees adequately watered during heat waves",
+      "Encourage predatory mites by minimizing disruptive chemicals"
+    ],
+    "urgency": "moderate",
+    "notes": "Outbreaks often follow hot, dry midsummer periods in mountain orchards."
+  },
+  {
+    "id": "apple-scab",
+    "commonName": "Apple Scab",
+    "affectedCrops": ["apple"],
+    "category": "fungal",
+    "symptoms": [
+      "Olive-green to black velvety spots on leaves",
+      "Dark scabby lesions on fruit that may crack as fruit expands",
+      "Severe infections cause early leaf drop and misshapen fruit"
+    ],
+    "typicalSeason": ["spring", "early summer"],
+    "conditionsThatFavorIt": "Cool wet spring weather; prolonged leaf wetness; susceptible cultivars",
+    "treatment": [
+      "Apply a labeled scab fungicide from green tip through early summer based on infection periods",
+      "Rake and destroy fallen leaves in autumn to reduce overwintering inoculum",
+      "Prune for airflow so leaves dry faster after rain"
+    ],
+    "prevention": [
+      "Plant scab-resistant apple cultivars where available",
+      "Sanitation: remove leaf litter under trees each autumn",
+      "Avoid overhead irrigation that extends leaf wetness"
+    ],
+    "urgency": "moderate",
+    "notes": "Key fungal disease of apple in cool, moist highland springs — the regional equivalent growers should watch for."
+  },
+  {
+    "id": "cherry-fruit-fly",
+    "commonName": "Cherry Fruit Fly",
+    "affectedCrops": ["cherry"],
+    "category": "pest",
+    "symptoms": [
+      "Soft, sunken spots on ripening cherries",
+      "White maggots inside fruit when cut open",
+      "Premature fruit drop and fruit that looks ripe but is internally damaged"
+    ],
+    "typicalSeason": ["early summer", "summer"],
+    "conditionsThatFavorIt": "Nearby wild hosts; incomplete spray coverage; staggered ripening that extends exposure",
+    "treatment": [
+      "Harvest all fruit promptly and destroy infested fruit (do not leave on the ground)",
+      "Use yellow sticky traps to monitor adult flies",
+      "Apply a labeled insecticide timed to adult emergence per local extension advice"
+    ],
+    "prevention": [
+      "Remove abandoned or wild cherry trees near the orchard when practical",
+      "Clean harvest — leave no ripe fruit hanging",
+      "Coordinate neighborhood spray timing if multiple orchards are close"
+    ],
+    "urgency": "high",
+    "notes": "Critical quarantine-style pest for cherry growers; early detection before harvest is essential."
+  }
+]
