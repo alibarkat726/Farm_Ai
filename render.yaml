@@ -2,8 +2,8 @@ services:
   - type: web
     name: orchard-advisory-backend
     runtime: python
-    # When this file is used alone, set Root Directory to orchard-advisory-backend
-    # Prefer the repo-root render.yaml for Blueprint deploys from the monorepo.
+    rootDir: orchard-advisory-backend
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
@@ -14,6 +14,8 @@ services:
         value: gpt-4o
       - key: DATABASE_URL
         value: sqlite:///./orchard.db
+      # After GitHub Pages is live, tighten this to:
+      # https://alibarkat726.github.io
       - key: ALLOWED_ORIGINS
         value: "*"
       - key: PYTHON_VERSION

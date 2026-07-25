@@ -1,0 +1,67 @@
+name: Deploy Flutter Web to GitHub Pages
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - "orchard_advisory_app/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Build web
+        working-directory: orchard_advisory_app
+        env:
+          # Set in GitHub → Settings → Secrets and variables → Actions → Variables
+          # Example: https://orchard-advisory-backend.onrender.com
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+        run: |
+          set -euo pipefail
+          if [ -z "${API_BASE_URL:-}" ]; then
+            echo "::error::Repository variable API_BASE_URL is not set."
+            echo "Go to Settings → Secrets and variables → Actions → Variables"
+            echo "Add API_BASE_URL = https://YOUR-SERVICE.onrender.com (no trailing slash)"
+            exit 1
+          fi
+          # Repo is github.com/alibarkat726/Farm_Ai → Pages URL uses /Farm_Ai/
+          flutter pub get
+          flutter build web --release \
+            --base-href "/Farm_Ai/" \
+            --dart-define="API_BASE_URL=${API_BASE_URL}"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: orchard_advisory_app/build/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

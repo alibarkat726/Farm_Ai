@@ -47,9 +47,15 @@ flutter run -d chrome --dart-define=API_BASE_URL=http://127.0.0.1:8000
 
 On web the default API URL is already `http://127.0.0.1:8000`. Use **Upload Photo** (file picker); camera is not used in the browser UI.
 
+**Production (GitHub Pages):** see repo root [DEPLOY.md](../DEPLOY.md). Build uses:
+
 ```bash
-flutter build web --dart-define=API_BASE_URL=https://your-deployed-backend-url.com
+flutter build web --release \
+  --base-href /Farm_Ai/ \
+  --dart-define=API_BASE_URL=https://YOUR-BACKEND.onrender.com
 ```
+
+Live app (after deploy): https://alibarkat726.github.io/Farm_Ai/
 
 ---
 
