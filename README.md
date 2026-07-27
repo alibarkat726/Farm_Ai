@@ -9,7 +9,7 @@ Diagnostic tool for apricot, apple, and cherry growers in Gilgit-Baltistan.
 
 ## Live deploy targets
 
-- **Backend:** [Render](https://render.com) (see root `render.yaml`)
+- **Backend:** [Vercel](https://vercel.com) (`orchard-advisory-backend/vercel.json`) — or Render via root `render.yaml`
 - **Frontend (web):** [GitHub Pages](https://alibarkat726.github.io/Farm_Ai/) via `.github/workflows/deploy-pages.yml`
 
 Full step-by-step: **[DEPLOY.md](./DEPLOY.md)**
