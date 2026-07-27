@@ -1,4 +1,4 @@
-# FarmAi — Orchard Advisory Bot
+# FarmAi — Orchard Advisory Bot LIVE AT (https://alibarkat726.github.io/Farm_Ai/)
 
 An AI-powered diagnostic tool that helps fruit growers in **Gilgit-Baltistan, Pakistan** identify diseases, pests, and nutritional problems in their **apricot, apple, and cherry** orchards. A farmer describes symptoms in plain text and/or uploads a photo of an affected leaf, fruit, or branch — the app returns a structured, actionable diagnosis grounded in a curated local knowledge base of 20 real orchard issues specific to high-altitude temperate climates.
 
